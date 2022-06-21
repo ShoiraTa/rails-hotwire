@@ -3,5 +3,7 @@
     <strong>Body:</strong>
     <%= message.body %>
   </p>
-
+  <p>
+    <%= button_to "Destroy this message", message, method: :delete %>
+  </p>
 </div>

@@ -1,3 +1,3 @@
 class Message < ApplicationRecord
-  validates :body, presence: true,length: { is: 7 }
+  validates :body, presence: true
 end
